@@ -1,7 +1,7 @@
 # Contentstack management SDK for Go
 This is the Go SDK for the contentstack management API. It is primarily
 developed to be used in our terraform provider for contenstack, see
-https://github.com/labd/terraform-provider-contentstack
+https://github.com/watchinharrison/terraform-provider-contentstack
 
 ## Example
 
