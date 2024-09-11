@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: get app token
         id: get-app-token
-        uses: watchinharrison/action-gh-app-token@main
+        uses: wa12n/action-gh-app-token@main
         with:
           app-id: ${{ secrets.RD_APP_ID }}
           private-key: ${{ secrets.RD_APP_PRIVATE_KEY }}
