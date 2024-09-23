@@ -140,6 +140,8 @@ func (c *Client) processResponse(r *http.Response, dst interface{}) error {
 			return err
 		}
 		return nil
+	case 204:
+		return nil
 	case 401:
 		result := make(map[string]interface{})
 		if err = json.Unmarshal(content, &result); err != nil {
